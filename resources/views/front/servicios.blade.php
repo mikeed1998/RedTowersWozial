@@ -129,7 +129,7 @@
 											</div>
 
 										</div> --}}
-
+ 
 							</div>
 						
 					
@@ -159,7 +159,7 @@
 					
 									@foreach($productos_rel as $Prod_rel)
 									{{-- CARD --}}
-									<a>
+								 	<a>
 										<div class="cadrSec2">
 											<div class="titCardSec2 mt-2">
 												<h2 style="font-weight: bold; font-size: 20px;">
@@ -190,14 +190,14 @@
 										</div>
 										</a>
 										{{-- CARD --}}
-										@endforeach
+			 							@endforeach
 					
 									</div>
 								</div>
 	
 	
 								{{-- BOTONES DE SLIDER --}}
-								<div class="BotonesSliderSec2">
+				 				<div class="BotonesSliderSec2">
 									<button class="btnAnterior">
 										<i class="fas fa-chevron-left"></i>
 									</button>
@@ -206,7 +206,7 @@
 									</button>
 								</div>
 								{{-- BOTONES DE SLIDER --}}
-							</div>
+	 						</div>
 						<div>
 	
 	
